@@ -36,3 +36,29 @@ body{
     text-decoration: none;
     font-size: 16px;
 }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    flex-grow: 1;
+}
+.product{
+    background-color: #1a1a2e;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+}
+.product img{
+    width: 100%;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 5px black);
+}
+footer{
+    background-color: #a59079;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
