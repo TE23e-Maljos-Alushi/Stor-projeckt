@@ -62,3 +62,49 @@ footer{
     padding: 10px;
     text-align: center;
 }
+.cart {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    width: 250px;
+    display: none; /* Keeps it hidden until needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adds shadow for better visibility */
+    border: 1px solid #ccc;
+    z-index: 1000; /* Makes sure it's on top */
+}
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+.cart ul li{
+    margin: 5px 0;
+}
+.cart-toggle{
+    cursor: pointer;
+}
+.remove-item{
+    color: red;
+    cursor: pointer;
+    margin-left: 10px;
+}
+@media (max-width: 768px){
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .logo{
+        position: static;
+        transform: none;
+        margin-bottom: 10px;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
